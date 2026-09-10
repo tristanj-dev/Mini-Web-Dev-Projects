@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 1em;
+    display: grid;
+    grid-template-areas:
+        "general-info stats"
+        "extra-info stats"
+    ;
+    column-gap: 1em;
+    background-color: #1666ba;
+    padding: 1em;
+    border-radius: 1em;
+    font-family: monospace;
+}
+
+.general-info {
+    grid-area: general-info;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #368ce7;
+    color: white;
+    border: 1px solid white;
+}
+
+.extra-info {
+    grid-area: extra-info;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: #368ce7;
+    color: white;
+    border: 1px solid white;
+}
+
+.stats {
+    grid-area: stats;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #368ce7;
+    color: white;
+    border: 1px solid white;
+}
+
+.form-group {
+    display: grid;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.label {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.radio-label {
+    display: grid;
+}
+
+input {
+    border-radius: 1em;
+    border: 3px solid #1666ba;
+    padding: .3em .5em;
+    font-family: monospace;
+}
+
+select {
+    border-radius: 1em;
+    border: 3px solid #1666ba;
+    padding: .3em .5em;
+}
+
+.radio-input {
+    justify-self: start;
+}
+
+.races,
+.alignment {
+    display: grid;
+    row-gap: .5em;
+}

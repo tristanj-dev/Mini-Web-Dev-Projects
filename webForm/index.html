@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web_Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset class="general-info">
+            <legend>General</legend>
+            <div class="form-group">
+                <label class="label" for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-group">
+                <label class="label" for="job">Job</label>
+                <select name="job" id="job">
+                    <option value="warrior">Warrior</option>
+                </select>
+            </div>
+            <div class="races">
+                <h2>Race</h2>
+                <div class="form-group">
+                    <label class="radio-label">Hume
+                        <input class="radio-input" type="radio" name="race" id="hume">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="radio-label">Elf
+                        <input class="radio-input" type="radio" name="race" id="elf">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="radio-label">Faerie
+                        <input class="radio-input" type="radio" name="race" id="faerie">
+                    </label>
+
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="extra-info">
+            <legend>Extra</legend>
+            <div class="form-group">
+                <label class="label" for="personality">Personality</label>
+                <select name="personality" id="personality">
+                    <option value="vamp">Vamp</option>
+                    <option value="meathead">Meathead</option>
+                </select>
+            </div>
+            <div class="alignment">
+                <h2>Alignment</h2>
+                <div class="form-group">
+                    <label class="radio-label"> Good
+                        <input class="radio-input" type="radio" name="alignment" id="good">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="radio-label"> Neutral
+                        <input class="radio-input" type="radio" name="alignment" id="neutral">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="radio-label"> Evil
+                        <input class="radio-input" type="radio" name="alignment" id="evil">
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="label" for="age">Age</label>
+                <input type="number" name="age" id="age">
+            </div>
+        </fieldset>
+
+        <fieldset class="stats">
+            <legend>Stats</legend>
+            <div class="form-group">
+                <label class="label" for="strength">Strength</label>
+                <input type="number" name="strength" id="strength">
+            </div>
+            <div class="form-group">
+                <label class="label" for="dexterity">Dexterity</label>
+                <input type="number" name="dexterity" id="dexterity">
+            </div>
+            <div class="form-group">
+                <label class="label" for="vitality">Vitality</label>
+                <input type="number" name="vitality" id="vitality">
+            </div>
+            <div class="form-group">
+                <label class="label" for="intelligence">Intelligence</label>
+                <input type="number" name="intelligence" id="intelligence">
+            </div>
+            <div class="form-group">
+                <label class="label" for="wisdom">Wisdom</label>
+                <input type="number" name="wisdom" id="wisdom">
+            </div>
+            <div class="form-group">
+                <label class="label" for="charisma">Charisma</label>
+                <input type="number" name="charisma" id="charisma">
+            </div>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
